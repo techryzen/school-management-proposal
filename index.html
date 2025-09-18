@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System - Project Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Rishab Agarwal</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#user-flow" class="nav-link">User Flow</a></li>
+                <li><a href="#technology" class="nav-link">Technology</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">School Management System</h1>
+                <p class="hero-subtitle">Comprehensive Digital Solution for Modern Educational Institutions</p>
+                <p class="hero-description">
+                    A complete school management platform featuring role-based access, real-time communication, 
+                    attendance tracking, homework management, online fee payments, and much more.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Explore Features</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Multi-Role Access</h3>
+                    <p>Students, Teachers, Parents & Admin</p>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Responsive</h3>
+                    <p>Access anywhere, anytime</p>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Platform</h3>
+                    <p>Advanced security features</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Overview</h2>
+                <p>Revolutionizing school management with cutting-edge technology</p>
+            </div>
+            <div class="overview-grid">
+                <div class="overview-item">
+                    <div class="overview-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Objective</h3>
+                    <p>Create a unified platform that streamlines all school operations, enhances communication between stakeholders, and provides real-time insights into student progress and institutional performance.</p>
+                </div>
+                <div class="overview-item">
+                    <div class="overview-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Implementing EWYL (Earn While You Learn) system, real-time notifications, and comprehensive analytics to create an engaging and efficient educational ecosystem.</p>
+                </div>
+                <div class="overview-item">
+                    <div class="overview-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Impact</h3>
+                    <p>Reduce administrative workload by 60%, improve parent-teacher communication by 80%, and enhance student engagement through gamified learning experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Comprehensive tools for modern education management</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1: Login System -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Role-Based Login System</h3>
+                    <p>Secure authentication with role-specific dashboards for Students, Teachers, Parents, and Admins. Email/Phone + Password or OTP verification.</p>
+                    <ul class="feature-list">
+                        <li>Multi-role access control</li>
+                        <li>Secure OTP authentication</li>
+                        <li>Customized dashboards</li>
+                        <li>Session management</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Dashboard -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Dynamic Dashboard</h3>
+                    <p>Real-time notices, announcements, and updates. Admin-controlled publishing with instant push notifications for urgent alerts.</p>
+                    <ul class="feature-list">
+                        <li>School-wide updates</li>
+                        <li>Event notifications</li>
+                        <li>Achievement highlights</li>
+                        <li>Scheduled announcements</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Attendance -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Attendance Management</h3>
+                    <p>Daily attendance marking with instant parent notifications. Comprehensive reporting with daily, weekly, and monthly insights.</p>
+                    <ul class="feature-list">
+                        <li>Real-time attendance marking</li>
+                        <li>Instant parent alerts</li>
+                        <li>Detailed reports</li>
+                        <li>Absence tracking</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4: Homework -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Homework & Assignments</h3>
+                    <p>Upload and submit assignments in multiple formats. Deadline tracking with automatic reminders and parent monitoring capabilities.</p>
+                    <ul class="feature-list">
+                        <li>Multi-format uploads</li>
+                        <li>Deadline management</li>
+                        <li>Auto-reminders</li>
+                        <li>Parent visibility</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5: Exams -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Exams & Results</h3>
+                    <p>Digital exam scheduling, admit cards, and automatic report card generation. Downloadable results in PDF format for parents.</p>
+                    <ul class="feature-list">
+                        <li>Digital admit cards</li>
+                        <li>Automated report cards</li>
+                        <li>Result analytics</li>
+                        <li>PDF downloads</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6: Fee Payment -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Online Fee Payment</h3>
+                    <p>Multiple payment options including UPI, cards, and net banking. Auto-generated receipts with payment history tracking.</p>
+                    <ul class="feature-list">
+                        <li>Multiple payment gateways</li>
+                        <li>Digital receipts</li>
+                        <li>Payment reminders</li>
+                        <li>Transaction history</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 7: Notifications -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Push Notifications</h3>
+                    <p>Instant alerts for homework, attendance, exams, fees, and events. Real-time communication to keep everyone informed.</p>
+                    <ul class="feature-list">
+                        <li>Real-time alerts</li>
+                        <li>Customizable notifications</li>
+                        <li>Priority messaging</li>
+                        <li>Multi-channel delivery</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 8: Communication -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Secure Communication</h3>
+                    <p>In-app chat system for Teacher-Parent-Student communication. Group chats for class announcements with admin-controlled access.</p>
+                    <ul class="feature-list">
+                        <li>Secure messaging</li>
+                        <li>Group communications</li>
+                        <li>File sharing</li>
+                        <li>Admin moderation</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 9: Library -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Digital Library</h3>
+                    <p>Comprehensive collection of ebooks, notes, reference materials, and videos. Organized by subject, class, and topic for easy access.</p>
+                    <ul class="feature-list">
+                        <li>Digital resources</li>
+                        <li>Categorized content</li>
+                        <li>Download/online viewing</li>
+                        <li>Search functionality</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 10: Calendar -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Events Calendar</h3>
+                    <p>Academic calendar integration with exams, holidays, and school functions. Automated reminders for important dates and events.</p>
+                    <ul class="feature-list">
+                        <li>Academic calendar</li>
+                        <li>Event scheduling</li>
+                        <li>Automated reminders</li>
+                        <li>Holiday tracking</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 11: Study Materials -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                    <h3>Study Materials Upload</h3>
+                    <p>Teachers can upload PDFs, images, and links for study materials. Version control with automatic student notifications for updates.</p>
+                    <ul class="feature-list">
+                        <li>Multi-format uploads</li>
+                        <li>Version control</li>
+                        <li>Update notifications</li>
+                        <li>Instant downloads</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 12: EWYL -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>EWYL Grade Points</h3>
+                    <p>Earn While You Learn system tracking extracurricular activities. Grade points for participation with leaderboards and rewards.</p>
+                    <ul class="feature-list">
+                        <li>Activity tracking</li>
+                        <li>Grade point system</li>
+                        <li>Leaderboards</li>
+                        <li>Reward mechanisms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Flow Section -->
+    <section id="user-flow" class="user-flow">
+        <div class="container">
+            <div class="section-header">
+                <h2>User Flow & Experience</h2>
+                <p>Interactive journey through our comprehensive school management system</p>
+            </div>
+            
+            <!-- User Type Selector -->
+            <div class="user-type-selector">
+                <div class="user-type active" data-user="student">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Student</span>
+                </div>
+                <div class="user-type" data-user="teacher">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>Teacher</span>
+                </div>
+                <div class="user-type" data-user="parent">
+                    <i class="fas fa-users"></i>
+                    <span>Parent</span>
+                </div>
+                <div class="user-type" data-user="admin">
+                    <i class="fas fa-user-shield"></i>
+                    <span>Admin</span>
+                </div>
+            </div>
+
+            <!-- Progress Indicator -->
+            <div class="flow-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">Step <span class="current-step">1</span> of <span class="total-steps">5</span></div>
+            </div>
+
+            <!-- Interactive Flow Steps -->
+            <div class="flow-container">
+                <div class="flow-timeline"></div>
+                <div class="flow-steps">
+                    <div class="flow-step active" data-step="1">
+                        <div class="step-circle">
+                            <div class="step-number">1</div>
+                            <div class="step-icon">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </div>
+                        </div>
+                        <div class="step-content">
+                            <h3>Login & Authentication</h3>
+                            <p class="step-description">Secure multi-factor authentication with role-based access control</p>
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Two-factor authentication</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>OTP verification</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-fingerprint"></i>
+                                    <span>Biometric login (mobile)</span>
+                                </div>
+                            </div>
+                            <button class="step-action-btn" onclick="showStepModal(1)">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flow-step" data-step="2">
+                        <div class="step-circle">
+                            <div class="step-number">2</div>
+                            <div class="step-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                        </div>
+                        <div class="step-content">
+                            <h3>Personalized Dashboard</h3>
+                            <p class="step-description">Role-specific interface with customizable widgets and quick actions</p>
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Performance analytics</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-bell"></i>
+                                    <span>Smart notifications</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>Today's schedule</span>
+                                </div>
+                            </div>
+                            <button class="step-action-btn" onclick="showStepModal(2)">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flow-step" data-step="3">
+                        <div class="step-circle">
+                            <div class="step-number">3</div>
+                            <div class="step-icon">
+                                <i class="fas fa-th-large"></i>
+                            </div>
+                        </div>
+                        <div class="step-content">
+                            <h3>Module Navigation</h3>
+                            <p class="step-description">Intuitive access to all features with smart search and favorites</p>
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-search"></i>
+                                    <span>Global search</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Quick favorites</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-history"></i>
+                                    <span>Recent activities</span>
+                                </div>
+                            </div>
+                            <button class="step-action-btn" onclick="showStepModal(3)">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flow-step" data-step="4">
+                        <div class="step-circle">
+                            <div class="step-number">4</div>
+                            <div class="step-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="step-content">
+                            <h3>Real-time Collaboration</h3>
+                            <p class="step-description">Seamless communication with instant messaging and video calls</p>
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>Video conferencing</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <span>Group chats</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-share-alt"></i>
+                                    <span>File sharing</span>
+                                </div>
+                            </div>
+                            <button class="step-action-btn" onclick="showStepModal(4)">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flow-step" data-step="5">
+                        <div class="step-circle">
+                            <div class="step-number">5</div>
+                            <div class="step-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                        <div class="step-content">
+                            <h3>Insights & Analytics</h3>
+                            <p class="step-description">Comprehensive reports with AI-powered insights and predictions</p>
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-brain"></i>
+                                    <span>AI recommendations</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-download"></i>
+                                    <span>Export reports</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Visual dashboards</span>
+                                </div>
+                            </div>
+                            <button class="step-action-btn" onclick="showStepModal(5)">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Demo Button -->
+            <div class="demo-section">
+                <button class="demo-btn" onclick="startInteractiveDemo()">
+                    <i class="fas fa-play"></i>
+                    Start Interactive Demo
+                </button>
+                <p>Experience the complete user journey in action</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology Stack</h2>
+                <p>Modern, scalable, and secure technologies</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>React Native</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>JWT Auth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Database</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-memory"></i>
+                            <span>Redis</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Infrastructure</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-bell"></i>
+                            <span>Firebase FCM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2>Development Timeline</h2>
+                <p>Structured approach to project delivery</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 1: Foundation (Weeks 1-2)</h3>
+                        <p>Project setup, database design, authentication system, and basic user interfaces.</p>
+                        <ul>
+                            <li>System architecture design</li>
+                            <li>Database schema creation</li>
+                            <li>User authentication implementation</li>
+                            <li>Basic dashboard layouts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 2: Core Features (Weeks 3-5)</h3>
+                        <p>Attendance system, homework management, exam scheduling, and communication features.</p>
+                        <ul>
+                            <li>Attendance tracking system</li>
+                            <li>Homework upload/submission</li>
+                            <li>Exam management module</li>
+                            <li>In-app messaging system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 3: Advanced Features (Weeks 6-7)</h3>
+                        <p>Fee payment integration, digital library, calendar system, and EWYL implementation.</p>
+                        <ul>
+                            <li>Payment gateway integration</li>
+                            <li>Digital library setup</li>
+                            <li>Calendar and events system</li>
+                            <li>EWYL grade points system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 4: Testing & Deployment (Week 8)</h3>
+                        <p>Comprehensive testing, bug fixes, performance optimization, and production deployment.</p>
+                        <ul>
+                            <li>System testing and QA</li>
+                            <li>Performance optimization</li>
+                            <li>Security auditing</li>
+                            <li>Production deployment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Investment Plans</h2>
+                <p>Choose the perfect plan for your institution's digital transformation</p>
+            </div>
+            
+            <!-- Pricing Toggle -->
+            <div class="pricing-toggle">
+                <span class="toggle-label">Annual</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="pricing-toggle" class="toggle-input">
+                    <label for="pricing-toggle" class="toggle-slider"></label>
+                </div>
+                <span class="toggle-label">Lifetime</span>
+                <div class="savings-badge">Save 20%</div>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="pricing-grid">
+                <!-- Professional Plan (Popular) -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="card-header">
+                        <div class="plan-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="plan-name">Professional</h3>
+                        <p class="plan-description">Ideal for medium schools</p>
+                    </div>
+                    <div class="price-container">
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount annual-price">1,00,000</span>
+                            <span class="amount lifetime-price" style="display: none;">1,00,000</span>
+                        </div>
+                        <div class="price-period">
+                            <span class="annual-period">per year</span>
+                            <span class="lifetime-period" style="display: none;">one-time</span>
+                        </div>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Up to 1,500 students</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Advanced analytics</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Fee management</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Exam management</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Mobile app access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Priority support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Custom reports</span>
+                        </div>
+                    </div>
+                    <button class="cta-button">
+                        <span class="button-text">Choose Plan</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <div class="plan-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="plan-name">Enterprise</h3>
+                        <p class="plan-description">For large institutions</p>
+                    </div>
+                    <div class="price-container">
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount annual-price">1,20,000</span>
+                            <span class="amount lifetime-price" style="display: none;">1,20,000</span>
+                        </div>
+                        <div class="price-period">
+                            <span class="annual-period">per year</span>
+                            <span class="lifetime-period" style="display: none;">one-time</span>
+                        </div>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Unlimited students</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Multi-campus support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Advanced integrations</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Custom development</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>24/7 dedicated support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>On-site training</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>White-label solution</span>
+                        </div>
+                    </div>
+                    <button class="cta-button">
+                        <span class="button-text">Contact Sales</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pricing Features Comparison -->
+            <div class="pricing-comparison">
+                <h3>Feature Comparison</h3>
+                <div class="comparison-table">
+                    <div class="comparison-header">
+                        <div class="feature-name">Features</div>
+                        <div class="plan-column">Professional</div>
+                        <div class="plan-column">Enterprise</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="feature-name">Student Capacity</div>
+                        <div class="plan-column">1,500</div>
+                        <div class="plan-column">Unlimited</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="feature-name">Mobile App</div>
+                        <div class="plan-column"><i class="fas fa-check"></i></div>
+                        <div class="plan-column"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="feature-name">Custom Reports</div>
+                        <div class="plan-column"><i class="fas fa-check"></i></div>
+                        <div class="plan-column"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="feature-name">Multi-campus</div>
+                        <div class="plan-column"><i class="fas fa-times"></i></div>
+                        <div class="plan-column"><i class="fas fa-check"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Money Back Guarantee -->
+            <div class="guarantee-section">
+                <div class="guarantee-content">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="guarantee-text">
+                        <h4>30-Day Money Back Guarantee</h4>
+                        <p>Not satisfied? Get a full refund within 30 days, no questions asked.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Started</h2>
+                <p>Ready to transform your school management?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Project Benefits</h3>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> 60% reduction in administrative workload</li>
+                        <li><i class="fas fa-check"></i> 80% improvement in parent-teacher communication</li>
+                        <li><i class="fas fa-check"></i> Real-time tracking and notifications</li>
+                        <li><i class="fas fa-check"></i> Paperless operations and eco-friendly approach</li>
+                        <li><i class="fas fa-check"></i> Enhanced student engagement through gamification</li>
+                        <li><i class="fas fa-check"></i> Comprehensive analytics and reporting</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-user"></i>
+                            <span>Rishab Agarwal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rishabagarwal27@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9748203333</span>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary">Request Demo</button>
+                        <button class="btn btn-secondary">Download Proposal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Rishab Agarwal</span>
+                </div>
+                <p>&copy; 2024 School Management System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
